@@ -1,0 +1,16 @@
+<div class="container">
+  <hr>
+  <p>Displaying data from json file</p>
+  <div class="container">   
+    <table>
+      <th>Product Name</th>
+      <th>Price</th>
+      <tr *ngFor="let i of son.products">
+        <td>{{ i.Name }}</td>
+        <td>{{ i.Price }}</td>
+      </tr>
+    </table>
+  </div>
+  <hr>
+  <a href="" (click)="takeMeToStore()"><b>Take me back to store</b></a>
+</div>

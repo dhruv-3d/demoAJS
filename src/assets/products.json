@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "Name": "Speakers",
+      "Price": "1400"
+    },
+    {
+      "Name": "Keyboard",
+      "Price": "550"
+    },
+    {
+      "Name": "Desktop",
+      "Price": "4000"
+    },
+    {
+      "Name": "Mouse",
+      "Price": "450"
+    },
+    {
+      "Name": "CPU",
+      "Price": "20000"
+    }
+  ]
+}

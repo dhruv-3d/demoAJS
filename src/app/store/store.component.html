@@ -1,0 +1,17 @@
+<div class="container">
+  <p class="sm">Enter you name below to get greetings.</p>
+  <br><input (click)="showMsg()" type="text" [(ngModel)]="name" placeholder="Enter name here"><br>
+  <h3>{{ msg }} {{ name }}</h3>
+</div>
+<hr>
+<div class="container">
+  <p>Displaying static data</p>
+  <table>
+    <th>Customer Name</th>
+    <th>Age</th>
+  <tr *ngFor="let name of c_name; let i = index">
+      <td>{{ name }}</td>
+      <td>{{ c_age[i] }}</td>  
+  </tr>
+</table>
+</div>
